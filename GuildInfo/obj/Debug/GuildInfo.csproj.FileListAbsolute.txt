@@ -1,0 +1,80 @@
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\GuildInfo.exe.config
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\GuildInfo.exe
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\GuildInfo.pdb
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\EntityFramework.dll
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\EntityFramework.xml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\GuildsWindow.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\App.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo_MarkupCompile.cache
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo_MarkupCompile.lref
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\GuildsWindow.baml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\MainWindow.baml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.g.resources
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.Properties.Resources.resources
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.GenerateResource.cache
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.CoreCompileInputs.cache
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.Fody.CopyLocal.cache
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.CopyComplete
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.exe
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.pdb
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\MembersWindow.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\MembersWindow.baml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\RacesWindow.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\RacesWindow.baml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\ProfessionsWindow.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\ProfessionsWindow.baml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\ChooseMembersWindow.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\Views\ChooseMembersWindow.baml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\bin\Debug\GuildInfo.xml
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo_Content.g.cs
+C:\Users\Mariusz\Documents\Visual Studio 2019\Projects\Zlecenia\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csprojAssemblyReference.cache
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\GuildInfo.exe.config
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\GuildInfo.xml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\GuildInfo.exe
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\GuildInfo.pdb
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\EntityFramework.dll
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\EntityFramework.xml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csprojAssemblyReference.cache
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\ChooseMembersWindow.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\GuildsWindow.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\MembersWindow.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\ProfessionsWindow.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\RacesWindow.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\App.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo_Content.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo_MarkupCompile.cache
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo_MarkupCompile.lref
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\ChooseMembersWindow.baml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\GuildsWindow.baml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\MainWindow.baml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\MembersWindow.baml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\ProfessionsWindow.baml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\Views\RacesWindow.baml
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.g.resources
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.Properties.Resources.resources
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.GenerateResource.cache
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.CoreCompileInputs.cache
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.Fody.CopyLocal.cache
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.csproj.CopyComplete
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.exe
+C:\Users\Mierzwix\Desktop\GuildInfo\GuildInfo\obj\Debug\GuildInfo.pdb

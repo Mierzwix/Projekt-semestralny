@@ -1,0 +1,68 @@
+﻿<Window x:Class="GuildInfo.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuildInfo"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        xmlns:vm="clr-namespace:GuildInfo.ViewModels"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        Title="Gildie" Height="450" Width="800">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCmd}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <ToolBar Grid.ColumnSpan="2">
+            <Button Content="Gildie" Command="{Binding ShowGuildsCmd}"/>
+            <Button Content="Członkowie" Command="{Binding ShowMembersCmd}"/>
+            <Button Content="Profesje" Command="{Binding ShowProfessionsCmd}"/>
+            <Button Content="Rasy" Command="{Binding ShowRacesCmd}"/>
+        </ToolBar>
+
+        <GroupBox Header="Gildie" Grid.Row="1">
+            <DataGrid SelectionMode="Single" ItemsSource="{Binding Guilds}" IsReadOnly="True" SelectedItem="{Binding SelectedGuild}" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nazwa" Binding="{Binding Name}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </GroupBox>
+        <GroupBox Header="Członkowie gildii" Grid.Row="1" Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <DataGrid SelectionMode="Single" ItemsSource="{Binding SelectedGuild.Members}" IsReadOnly="True" SelectedItem="{Binding SelectedGuild.SelectedMember}" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Ksywka" Binding="{Binding Nickname}" Width="100"/>
+                        <DataGridTextColumn Header="Poziom" Binding="{Binding Level}" Width="60"/>
+                        <DataGridTextColumn Header="Profesja" Binding="{Binding Profession.Name}"/>
+                        <DataGridTextColumn Header="Rasa" Binding="{Binding Race.Name}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button  Content="Dodaj członka" Command="{Binding AddMemberIntoGuildCmd}" VerticalAlignment="Center" Margin="3" Width="100" CommandParameter="{Binding SelectedGuild}"/>
+                <Button Grid.Row="1" Content="Usuń członka" Command="{Binding DeleteMemberFromGuildCmd}" VerticalAlignment="Center" Margin="3" Width="100" CommandParameter="{Binding SelectedGuild}"/>
+                </StackPanel>
+            </Grid>
+            
+        </GroupBox>
+    </Grid>
+</Window>

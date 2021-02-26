@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GuildInfo</name>
+    </assembly>
+    <members>
+        <member name="M:GuildInfo.Models.Member.UpdateProperties(GuildInfo.Models.Member)">
+            <summary>
+            Aktualizacja informacji obecnego członka gildii
+            </summary>
+            <param name="member"></param>
+        </member>
+        <member name="M:GuildInfo.Models.Member.IsMemberExist(System.Boolean)">
+            <summary>
+            Sprawdza czy istnieje już taki członek
+            </summary>
+            <param name="checkID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Member.Add">
+            <summary>
+            Dodanie nowego członka
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Member.Update">
+            <summary>
+            Aktualizacja wybranego członka
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Member.Remove">
+            <summary>
+            Usuwanie wybranego członka
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Models.GIContext">
+            <summary>
+            Kontekst do bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Profession.IsProfessionExist(System.String)">
+            <summary>
+            Sprawdza czy taka profesja już istnieje
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Profession.Add">
+            <summary>
+            Dodanie nowej profesji
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Profession.Update">
+            <summary>
+            Aktualizacja wybranej profesji
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Profession.UpdateProperties(GuildInfo.Models.Profession)">
+            <summary>
+            Aktualizacja właściwości profesji
+            </summary>
+            <param name="profession"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Profession.Remove">
+            <summary>
+            Usuwanie wybranej profesji
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Race.UpdateProperties(GuildInfo.Models.Race)">
+            <summary>
+            Aktualizacja informacji o rasie
+            </summary>
+            <param name="race"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Race.IsRaceExist">
+            <summary>
+            Sprawdza czy istnieje już taka rasa
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Race.Add">
+            <summary>
+            Dodanie nowej rasy
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Race.Update">
+            <summary>
+            Aktualizacja wybranej rasy
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Race.Remove">
+            <summary>
+            Usuwanie wybranej rasy
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Models.BaseModel">
+            <summary>
+            Klasa bazowa
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Guild.IsGuildExist">
+            <summary>
+            Sprawdza czy w gildii z taką nazwą już istnieje
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="P:GuildInfo.Models.Guild.IsNameOK">
+            <summary>
+            Sprawdza czy nazwa nie jest pusta (True - jest ok)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Guild.Add">
+            <summary>
+            Dodanie nowej gildii
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Models.Guild.Update(GuildInfo.Models.Guild)">
+            <summary>
+            Aktualizacja gildii
+            </summary>
+            <param name="guild"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GuildInfo.Models.Guild.UpdateProperties(GuildInfo.Models.Guild)">
+            <summary>
+            Aktualizowanie informacji o gildii
+            </summary>
+            <param name="guild"></param>
+        </member>
+        <member name="M:GuildInfo.Models.Guild.RemoveGuild">
+            <summary>
+            Usuwanie gildii
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GuildInfo.ViewModels.BaseViewModel">
+            <summary>
+            Klasa bazowa dla ViewModeli
+            </summary>
+        </member>
+        <member name="T:GuildInfo.ViewModels.ChooseMembersWindowViewModel">
+            <summary>
+            ViewModel dla wyboru czlonkow gildii
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.ChooseMembersWindowViewModel.InitializeCommands">
+            <summary>
+            Inicjalizacja komend
+            </summary>
+        </member>
+        <member name="F:GuildInfo.ViewModels.GuildsWindowViewModel._isJustClosedWindow">
+            <summary>
+            True jeśli nie dokonano dodawania / aktualizacji / kasowania, czyli po prostu zamknięcie okna bez działania
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.GuildsWindowViewModel.NewGuild">
+            <summary>
+            Tworzenie nowej gildii
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.GuildsWindowViewModel.AddGuild">
+            <summary>
+            Dodanie nowej gildii do bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.GuildsWindowViewModel.UpdateGuild">
+            <summary>
+            Aktualizacja wybranej gildii
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.GuildsWindowViewModel.RemoveGuild">
+            <summary>
+            Usunięcie wybranej gildii z bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.GuildsWindowViewModel.Close(System.Object)">
+            <summary>
+            Zamknięcie okna z gildiami
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="F:GuildInfo.ViewModels.MembersWindowViewModel._isJustClosedWindow">
+            <summary>
+            True jeśli nie dokonano dodawania / aktualizacji / kasowania, czyli po prostu zamknięcie okna bez działania
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.MembersWindowViewModel.NewMember">
+            <summary>
+            Tworzenie nowej gildii
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.MembersWindowViewModel.AddMember">
+            <summary>
+            Dodanie nowej gildii do bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.MembersWindowViewModel.UpdateMember">
+            <summary>
+            Aktualizacja wybranej gildii
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.MembersWindowViewModel.RemoveMember">
+            <summary>
+            Usunięcie wybranej gildii z bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.MembersWindowViewModel.Close(System.Object)">
+            <summary>
+            Zamknięcie okna z gildiami
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="F:GuildInfo.ViewModels.ProfessionsWindowViewModel._isJustClosedWindow">
+            <summary>
+            True jeśli nie dokonano dodawania / aktualizacji / kasowania, czyli po prostu zamknięcie okna bez działania
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.ProfessionsWindowViewModel.NewProfession">
+            <summary>
+            Tworzenie nowej rasy
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.ProfessionsWindowViewModel.AddProfession">
+            <summary>
+            Dodanie nowej rasy do bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.ProfessionsWindowViewModel.UpdateProfession">
+            <summary>
+            Aktualizacja wybranej rasy
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.ProfessionsWindowViewModel.RemoveProfession">
+            <summary>
+            Usunięcie wybranej rasy z bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.ProfessionsWindowViewModel.Close(System.Object)">
+            <summary>
+            Zamknięcie okna z rasami
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="F:GuildInfo.ViewModels.RacesWindowViewModel._isJustClosedWindow">
+            <summary>
+            True jeśli nie dokonano dodawania / aktualizacji / kasowania, czyli po prostu zamknięcie okna bez działania
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.RacesWindowViewModel.NewRace">
+            <summary>
+            Tworzenie nowej rasy
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.RacesWindowViewModel.AddRace">
+            <summary>
+            Dodanie nowej rasy do bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.RacesWindowViewModel.UpdateRace">
+            <summary>
+            Aktualizacja wybranej rasy
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.RacesWindowViewModel.RemoveRace">
+            <summary>
+            Usunięcie wybranej rasy z bazy danych
+            </summary>
+        </member>
+        <member name="M:GuildInfo.ViewModels.RacesWindowViewModel.Close(System.Object)">
+            <summary>
+            Zamknięcie okna z rasami
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="T:GuildInfo.Views.ChooseMembersWindow">
+            <summary>
+            Logika interakcji dla klasy ChooseMembersWindow.xaml
+            </summary>
+            <summary>
+            ChooseMembersWindow
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Views.ChooseMembersWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Views.GuildsWindow">
+            <summary>
+            Logika interakcji dla klasy GuildsWindow.xaml
+            </summary>
+            <summary>
+            GuildsWindow
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Views.GuildsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Views.MainWindow">
+            <summary>
+            Logika interakcji dla klasy MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Views.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Views.MembersWindow">
+            <summary>
+            Logika interakcji dla klasy MembersWindow.xaml
+            </summary>
+            <summary>
+            MembersWindow
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Views.MembersWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Views.ProfessionsWindow">
+            <summary>
+            Logika interakcji dla klasy ProfessionsWindow.xaml
+            </summary>
+            <summary>
+            ProfessionsWindow
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Views.ProfessionsWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Views.RacesWindow">
+            <summary>
+            Logika interakcji dla klasy RacesWindow.xaml
+            </summary>
+            <summary>
+            RacesWindow
+            </summary>
+        </member>
+        <member name="M:GuildInfo.Views.RacesWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:GuildInfo.App">
+            <summary>
+            Logika interakcji dla klasy App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:GuildInfo.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:GuildInfo.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:GuildInfo.Properties.Resources">
+            <summary>
+              Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+            </summary>
+        </member>
+        <member name="P:GuildInfo.Properties.Resources.ResourceManager">
+            <summary>
+            Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+            </summary>
+        </member>
+        <member name="P:GuildInfo.Properties.Resources.Culture">
+            <summary>
+              Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+              przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+            </summary>
+        </member>
+    </members>
+</doc>
